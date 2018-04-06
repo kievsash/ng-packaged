@@ -2,7 +2,7 @@
 
 ##### What I did
 
-I just cloned ng-packager empty example and added my component to the lib section
+I just cloned ng-packager empty example and added my masked-phone-input component to the lib section
 
 So you can start sample app with **>ng serve** command and see this component
 
