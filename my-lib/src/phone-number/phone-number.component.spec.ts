@@ -1,6 +1,6 @@
 import { PhoneNumberComponent } from './phone-number.component';
-import * as calculation from 'tonic-ng4-pro-spa-components/src/components/shared/helpers/string-mask.calculation';
-import { mockModuleProp } from 'tonic-ng4-pro-spa-components/src/components/shared/helpers/mockHelpers.helper';
+import * as calculation from './string-mask.calculation';
+import { mockModuleProp } from './mockHelpers.helper';
 
 describe('phone-number.component', () => {
     let sut: any;

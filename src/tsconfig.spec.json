@@ -18,6 +18,8 @@
   ],
   "include": [
     "**/*.spec.ts",
-    "**/*.d.ts"
+    "**/*.d.ts",
+    "../my-lib/**/*.spec.ts",
+    "../my-lib/**/*.d.ts"
   ]
 }
