@@ -34,7 +34,9 @@ So just do
 Change the version in  package.json in this folder if you need it.
 
 
-######I will keep original readme content if case you need it
+###### *I will keep original ng-packager readme content if case you need it
+
+
 ## Packaging Angular libraries with ng-packagr
 
 > Angular libraries are fun!
