@@ -15,7 +15,7 @@ Feel free to fork it and make it better since I don't have enough time to finish
 
 #####Demo
 
-<img src="https://giphy.com/gifs/masked-input-ujvVR2zeStL8zaytmT">
+<a href="#"><img src="https://giphy.com/gifs/masked-input-ujvVR2zeStL8zaytmT"></a>
 
 #####How to use input
 
