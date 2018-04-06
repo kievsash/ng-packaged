@@ -15,7 +15,7 @@ Feel free to fork it and make it better since I don't have enough time to finish
 
 #####Demo
 
-<a href="#"><img src="https://gph.is/2qdgBDx"></a>
+<img src="https://media.giphy.com/media/ujvVR2zeStL8zaytmT/giphy.gif">
 
 #####How to use input
 
