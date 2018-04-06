@@ -2,26 +2,30 @@
 
 ##### What I did
 
-I just cloned ng-packager empty example and added my component to the lib section
+I just cloned ng-packager empty example and added my masked-phone-input component to the lib section
 
 So you can start sample app with **>ng serve** command and see this component
 
 All the components code is located in ./my-lib/src dir
 
-#####Which phone number formats
+##### Which phone number formats
 Actually input is not configurable at the moment
 Mask for now is 1(999)999-9999 or (999)999-9999 - for American phone format.
 Feel free to fork it and make it better since I don't have enough time to finish it.
 
-#####Demo
+##### Demo1
 
-<img src="https://giphy.com/gifs/masked-input-ujvVR2zeStL8zaytmT">
+<img src="https://media.giphy.com/media/ujvVR2zeStL8zaytmT/giphy.gif">
 
-#####How to use input
+##### Demo1
+
+<img src="https://media.giphy.com/media/8PBfNU1L9QarpbZ23n/giphy.gif">
+
+##### How to use input
 
 Just check example in app component.
 
-#####To build lib
+##### To build lib
  
 You have to just run npm run build:lib
 
