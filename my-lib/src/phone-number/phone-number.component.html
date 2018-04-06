@@ -1,0 +1,9 @@
+<input type="text"
+       #phoneInput
+       class="input"
+       (keydown)="onKeyDown($event)"
+       (keyup)="onKeyUp($event)"
+       (input)="changeInput($event)"
+       (blur)="blur.emit(true)"
+       (focus)="focus.emit(true)"
+>

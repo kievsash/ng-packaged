@@ -1,3 +1,7 @@
+.idea/
+my-lib/package-lock.json
+package-lock.json
+
 # Logs
 logs
 *.log

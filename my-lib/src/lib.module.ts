@@ -1,28 +1,20 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
-import { FooComponent } from './foo/foo.component';
-import { BarService } from './bar/bar.service';
+import { PhoneNumberComponent } from './phone-number/phone-number.component';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   declarations: [
-    FooComponent
+    PhoneNumberComponent
   ],
   exports: [
-    FooComponent
+    PhoneNumberComponent
   ]
 })
-export class MyLibModule {
-
-  public static forRoot(): ModuleWithProviders {
-
-    return {
-      ngModule: MyLibModule,
-      providers: [
-        BarService
-      ]
-    };
-  }
+export class NgxMaskedPhoneInputModule {
 }

@@ -1,3 +1,12 @@
-<my-foo></my-foo>
-<hr>
-<marquee>{{ $value | async }}</marquee>
+<form [formGroup]="myForm">
+    <phone-number-input
+            formControlName="myPhone"
+            (blur)="setBlured(myForm.controls.myPhone, true)"
+            (focus)="setBlured(myForm.controls.myPhone, false)"
+            [ngClass]="{ 'is-error': isInvalidAndBlured(myForm.controls.myPhone) }"
+    ></phone-number-input>
+    <div class="error-message"
+         *ngIf="shouldShowErrors(myForm.controls.myPhone)">
+        Please enter a 10/11-digit phone number. Thanks!
+    </div>
+</form>

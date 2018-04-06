@@ -1,10 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
-import { MyLibModule } from '@my/lib';
+import { NgxMaskedPhoneInputModule } from '../../my-lib/src/lib.module';
 
 @NgModule({
   declarations: [
@@ -13,8 +11,8 @@ import { MyLibModule } from '@my/lib';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule,
-    MyLibModule.forRoot()
+    ReactiveFormsModule,
+    NgxMaskedPhoneInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

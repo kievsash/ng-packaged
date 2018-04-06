@@ -1,21 +1,21 @@
 {
-  "name": "@my/lib",
-  "version": "1.0.0-alpha.0",
-  "repository": "https://github.com/dherges/ng-packaged.git",
-  "author": "david <david@spektrakel.de>",
+  "name": "ngx-masked-phone-input",
+  "version": "1.0.0",
+  "repository": "https://github.com/kievsash/ngx-masked-phone-input.git",
+  "author": "Kievsash <kievsash@ukr.net> ",
   "license": "MIT",
   "private": true,
   "peerDependencies": {
     "@angular/core": "^5.0.0",
-    "@angular/common": "^5.0.0"
+    "@angular/common": "^5.0.0",
+    "@angular/forms": "^5.0.0"
   },
   "ngPackage": {
     "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
-    "dest": "dist/my-lib",
+    "dest": "../dist/my-lib",
     "workingDirectory": "../.ng_build",
     "lib": {
       "entryFile": "src/public_api.ts"
-    },
-    "dest": "../dist/my-lib"
+    }
   }
 }
