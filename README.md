@@ -1,8 +1,41 @@
-# Packaging Angular libraries with ng-packagr
+# Masked ngx--phone-input component
 
-[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg?style=flat-square)](https://renovateapp.com/)
-[![CircleCI](https://img.shields.io/circleci/project/github/dherges/ng-packaged/master.svg?style=flat-square&label=Circle%20CI)](https://circleci.com/gh/dherges/ng-packaged)
+##### What I did
 
+I just cloned ng-packager empty example and added my component to the lib section
+
+So you can start sample app with **>ng serve** command and see this component
+
+All the components code is located in ./my-lib/src dir
+
+#####Which phone number formats
+Actually input is not configurable at the moment
+Mask for now is 1(999)999-9999 or (999)999-9999 - for American phone format.
+Feel free to fork it and make it better since I don't have enough time to finish it.
+
+#####Demo
+
+<img src="https://giphy.com/gifs/masked-input-ujvVR2zeStL8zaytmT">
+
+#####How to use input
+
+Just check example in app component.
+
+#####To build lib
+ 
+You have to just run npm run build:lib
+
+./dist folder will be created.
+
+So just do
+>cd ./dist/my-lib \
+ npm publish
+
+Change the version in  package.json in this folder if you need it.
+
+
+######I will keep original readme content if case you need it
+## Packaging Angular libraries with ng-packagr
 
 > Angular libraries are fun!
 
